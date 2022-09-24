@@ -16,7 +16,7 @@ def _data():
     Prepped data as a fixture
     """
     # Load data
-    DATA_PATH = "../data/prepped/census.csv"
+    DATA_PATH = "./data/prepped/census.csv"
     data = pd.read_csv(DATA_PATH)
     return data
 
