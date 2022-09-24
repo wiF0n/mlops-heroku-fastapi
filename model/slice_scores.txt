@@ -1,0 +1,112 @@
+workclass - Private: Precision: 0.745, Recall: 0.627, f1 score: 0.681
+workclass - Self-emp-inc: Precision: 0.770, Recall: 0.765, f1 score: 0.768
+workclass - Self-emp-not-inc: Precision: 0.808, Recall: 0.559, f1 score: 0.661
+workclass - Local-gov: Precision: 0.795, Recall: 0.718, f1 score: 0.754
+workclass - State-gov: Precision: 0.746, Recall: 0.638, f1 score: 0.688
+workclass - Federal-gov: Precision: 0.730, Recall: 0.750, f1 score: 0.740
+workclass - Without-pay: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+
+
+education - HS-grad: Precision: 0.628, Recall: 0.422, f1 score: 0.504
+education - Assoc-voc: Precision: 0.673, Recall: 0.561, f1 score: 0.612
+education - Bachelors: Precision: 0.766, Recall: 0.741, f1 score: 0.753
+education - Prof-school: Precision: 0.906, Recall: 0.951, f1 score: 0.928
+education - Some-college: Precision: 0.735, Recall: 0.548, f1 score: 0.628
+education - Masters: Precision: 0.845, Recall: 0.902, f1 score: 0.872
+education - 11th: Precision: 1.000, Recall: 0.375, f1 score: 0.545
+education - 5th-6th: Precision: 0.500, Recall: 0.333, f1 score: 0.400
+education - Assoc-acdm: Precision: 0.667, Recall: 0.556, f1 score: 0.606
+education - Doctorate: Precision: 0.868, Recall: 0.885, f1 score: 0.876
+education - 10th: Precision: 0.800, Recall: 0.364, f1 score: 0.500
+education - 7th-8th: Precision: 1.000, Recall: 0.333, f1 score: 0.500
+education - 9th: Precision: 1.000, Recall: 0.667, f1 score: 0.800
+education - 12th: Precision: 0.750, Recall: 0.375, f1 score: 0.500
+education - Preschool: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+education - 1st-4th: Precision: 1.000, Recall: 0.333, f1 score: 0.500
+
+
+marital-status - Never-married: Precision: 0.867, Recall: 0.390, f1 score: 0.538
+marital-status - Married-civ-spouse: Precision: 0.751, Recall: 0.690, f1 score: 0.719
+marital-status - Divorced: Precision: 0.769, Recall: 0.404, f1 score: 0.530
+marital-status - Married-spouse-absent: Precision: 1.000, Recall: 0.500, f1 score: 0.667
+marital-status - Separated: Precision: 0.500, Recall: 0.250, f1 score: 0.333
+marital-status - Widowed: Precision: 0.833, Recall: 0.357, f1 score: 0.500
+marital-status - Married-AF-spouse: Precision: 1.000, Recall: 0.000, f1 score: 0.000
+
+
+occupation - Sales: Precision: 0.719, Recall: 0.650, f1 score: 0.683
+occupation - Farming-fishing: Precision: 0.688, Recall: 0.440, f1 score: 0.537
+occupation - Handlers-cleaners: Precision: 1.000, Recall: 0.455, f1 score: 0.625
+occupation - Prof-specialty: Precision: 0.811, Recall: 0.811, f1 score: 0.811
+occupation - Adm-clerical: Precision: 0.590, Recall: 0.500, f1 score: 0.541
+occupation - Exec-managerial: Precision: 0.805, Recall: 0.751, f1 score: 0.777
+occupation - Other-service: Precision: 0.800, Recall: 0.190, f1 score: 0.308
+occupation - Craft-repair: Precision: 0.664, Recall: 0.451, f1 score: 0.538
+occupation - Transport-moving: Precision: 0.700, Recall: 0.400, f1 score: 0.509
+occupation - Machine-op-inspct: Precision: 0.633, Recall: 0.345, f1 score: 0.447
+occupation - Protective-serv: Precision: 0.765, Recall: 0.667, f1 score: 0.712
+occupation - Tech-support: Precision: 0.746, Recall: 0.671, f1 score: 0.707
+occupation - Priv-house-serv: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+occupation - Armed-Forces: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+
+
+relationship - Own-child: Precision: 1.000, Recall: 0.429, f1 score: 0.600
+relationship - Husband: Precision: 0.754, Recall: 0.687, f1 score: 0.719
+relationship - Wife: Precision: 0.724, Recall: 0.708, f1 score: 0.716
+relationship - Not-in-family: Precision: 0.793, Recall: 0.420, f1 score: 0.549
+relationship - Unmarried: Precision: 0.900, Recall: 0.257, f1 score: 0.400
+relationship - Other-relative: Precision: 1.000, Recall: 0.286, f1 score: 0.444
+
+
+race - White: Precision: 0.757, Recall: 0.648, f1 score: 0.698
+race - Black: Precision: 0.803, Recall: 0.628, f1 score: 0.705
+race - Asian-Pac-Islander: Precision: 0.698, Recall: 0.652, f1 score: 0.674
+race - Other: Precision: 0.800, Recall: 0.800, f1 score: 0.800
+race - Amer-Indian-Eskimo: Precision: 0.250, Recall: 0.250, f1 score: 0.250
+
+
+sex - Female: Precision: 0.753, Recall: 0.573, f1 score: 0.651
+sex - Male: Precision: 0.756, Recall: 0.658, f1 score: 0.704
+
+
+native-country - United-States: Precision: 0.764, Recall: 0.646, f1 score: 0.700
+native-country - Philippines: Precision: 0.750, Recall: 0.600, f1 score: 0.667
+native-country - Puerto-Rico: Precision: 0.667, Recall: 0.667, f1 score: 0.667
+native-country - Haiti: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Columbia: Precision: 0.000, Recall: 1.000, f1 score: 0.000
+native-country - Canada: Precision: 0.889, Recall: 0.727, f1 score: 0.800
+native-country - Mexico: Precision: 0.400, Recall: 0.250, f1 score: 0.308
+native-country - Germany: Precision: 0.600, Recall: 0.667, f1 score: 0.632
+native-country - Jamaica: Precision: 0.000, Recall: 0.000, f1 score: 0.000
+native-country - Iran: Precision: 0.500, Recall: 1.000, f1 score: 0.667
+native-country - Cuba: Precision: 0.500, Recall: 0.500, f1 score: 0.500
+native-country - Laos: Precision: 1.000, Recall: 0.000, f1 score: 0.000
+native-country - Poland: Precision: 1.000, Recall: 0.000, f1 score: 0.000
+native-country - England: Precision: 0.667, Recall: 0.800, f1 score: 0.727
+native-country - Dominican-Republic: Precision: 0.000, Recall: 1.000, f1 score: 0.000
+native-country - Outlying-US(Guam-USVI-etc): Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - South: Precision: 0.800, Recall: 0.800, f1 score: 0.800
+native-country - Greece: Precision: 0.333, Recall: 1.000, f1 score: 0.500
+native-country - China: Precision: 0.333, Recall: 0.667, f1 score: 0.444
+native-country - Peru: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Guatemala: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Italy: Precision: 0.667, Recall: 1.000, f1 score: 0.800
+native-country - Ecuador: Precision: 0.000, Recall: 0.000, f1 score: 0.000
+native-country - Taiwan: Precision: 0.667, Recall: 1.000, f1 score: 0.800
+native-country - El-Salvador: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Japan: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Hong: Precision: 1.000, Recall: 0.000, f1 score: 0.000
+native-country - Honduras: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Cambodia: Precision: 1.000, Recall: 0.000, f1 score: 0.000
+native-country - Portugal: Precision: 1.000, Recall: 0.000, f1 score: 0.000
+native-country - Trinadad&Tobago: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Hungary: Precision: 0.000, Recall: 1.000, f1 score: 0.000
+native-country - Nicaragua: Precision: 1.000, Recall: 0.500, f1 score: 0.667
+native-country - India: Precision: 0.857, Recall: 0.857, f1 score: 0.857
+native-country - Thailand: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - France: Precision: 0.750, Recall: 1.000, f1 score: 0.857
+native-country - Ireland: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Holand-Netherlands: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+native-country - Vietnam: Precision: 1.000, Recall: 1.000, f1 score: 1.000
+
+
