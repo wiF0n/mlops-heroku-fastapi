@@ -5,6 +5,7 @@ from base64 import encode
 import os
 import pickle
 import logging
+from random import seed
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import prep_data
@@ -17,7 +18,7 @@ DATA_PATH = "../data/prepped/census.csv"
 data = pd.read_csv(DATA_PATH)
 
 # train-test split.
-train, test = train_test_split(data, test_size=0.20)
+train, test = train_test_split(data, test_size=0.20, random_state=42)
 
 cat_features = [
     "workclass",
@@ -40,6 +41,7 @@ X_test, y_test, _, _ = prep_data.process_data(
     training=False,
     encoder=encoder,
     lb=lb)
+
 # Train model
 clf = model.train_model(X_train, y_train)
 
