@@ -1,11 +1,9 @@
 """
 Module for running training pipeline
 """
-from base64 import encode
 import os
 import pickle
 import logging
-from random import seed
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import prep_data

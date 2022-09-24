@@ -31,7 +31,8 @@ def train_model(X_train: np.array,
 
 def compute_model_metrics(y: np.array, preds: np.array) -> Tuple[float]:
     """
-    Validates the trained machine learning model using precision, recall, and F1.
+    Validates the trained machine learning model
+    using precision, recall, and F1.
 
     Inputs
     ------

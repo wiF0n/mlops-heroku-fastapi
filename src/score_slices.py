@@ -64,7 +64,10 @@ for cat_feat in cat_features:
         precision, recall, fbeta = model.compute_model_metrics(
             y_true_slice, y_pred_slice)
 
-        level_metrics = f"{cat_feat} - {cat_level}: Precision: {precision:.3f}, Recall: {recall:.3f}, f1 score: {fbeta:.3f}"
+        level_metrics = (f"{cat_feat} - {cat_level}: "
+                         f"Precision: {precision:.3f}, "
+                         f"Recall: {recall:.3f}, "
+                         f"f1 score: {fbeta:.3f}")
         slice_scores.append(level_metrics)
     slice_scores.append("\n")
 

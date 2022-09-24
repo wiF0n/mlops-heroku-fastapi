@@ -5,9 +5,9 @@ Module for testing modeling functions
 import pytest
 import pandas as pd
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier
 from prep_data import process_data
 import model
-from sklearn.ensemble import RandomForestClassifier
 
 
 @pytest.fixture(name="data")
