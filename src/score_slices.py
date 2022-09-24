@@ -10,11 +10,11 @@ import prep_data
 import model
 
 # Load data
-DATA_PATH = "../data/prepped/census.csv"
+DATA_PATH = "./data/prepped/census.csv"
 data = pd.read_csv(DATA_PATH)
 
 # Load model and encoders
-MODEL_DIR_PATH = "../model"
+MODEL_DIR_PATH = "./model"
 MODEL_NAME = "rf_clf.pkl"
 CAT_ENCODER_NAME = "cat_enc.pkl"
 LB_NAME = "lb.pkl"
@@ -72,7 +72,7 @@ for cat_feat in cat_features:
     slice_scores.append("\n")
 
 # save model score file
-SLICE_SCORE_PATH = "../model/slice_scores.txt"
+SLICE_SCORE_PATH = "./model/slice_scores.txt"
 with open(SLICE_SCORE_PATH, "w", encoding="UTF-8") as slice_f:
     for slice_score in slice_scores:
         slice_f.write(f"{slice_score}\n")

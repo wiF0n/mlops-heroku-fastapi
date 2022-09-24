@@ -12,7 +12,7 @@ import model
 logging.basicConfig(level=logging.INFO)
 
 # Load data
-DATA_PATH = "../data/prepped/census.csv"
+DATA_PATH = "./data/prepped/census.csv"
 data = pd.read_csv(DATA_PATH)
 
 # train-test split.
@@ -51,7 +51,7 @@ model_metrics = model.compute_model_metrics(y_test, y_pred)
 logging.info('Precision: %.3f, Recall: %.3f, f1 score: %.3f' % model_metrics)
 
 # Save model and encoders
-MODEL_DIR_PATH = "../model"
+MODEL_DIR_PATH = "./model"
 MODEL_NAME = "rf_clf.pkl"
 CAT_ENCODER_NAME = "cat_enc.pkl"
 LB_NAME = "lb.pkl"
